@@ -1,0 +1,142 @@
+/* ::::: http://ccdcadmin1.morainevalley.edu/modules/node/node.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/modules/system/defaults.css?2 ::::: */
+
+table { border-collapse: collapse; }
+th { text-align: left; padding-right: 1em; border-bottom: 3px solid rgb(204, 204, 204); }
+.clear-block::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/modules/system/system.css?2 ::::: */
+
+tr.even, tr.odd { background-color: rgb(238, 238, 238); border-bottom: 1px solid rgb(204, 204, 204); padding: 0.1em 0.6em; }
+tbody { border-top: 1px solid rgb(204, 204, 204); }
+thead th { text-align: left; padding-right: 1em; border-bottom: 3px solid rgb(204, 204, 204); }
+ul.primary { border-collapse: collapse; padding: 0px 0px 0px 1em; white-space: nowrap; list-style: outside none none; margin: 5px; height: auto; line-height: normal; border-bottom: 1px solid rgb(187, 187, 187); }
+ul.primary li { display: inline; }
+ul.primary li a { background-color: rgb(221, 221, 221); border-color: rgb(187, 187, 187); border-width: 1px; border-style: solid solid none; height: auto; margin-right: 0.5em; padding: 0px 1em; text-decoration: none; }
+ul.primary li.active a { background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(255, 255, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+ul.primary li a:hover { background-color: rgb(238, 238, 238); border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(238, 238, 238); }
+/* ::::: http://ccdcadmin1.morainevalley.edu/modules/system/system-menus.css?2 ::::: */
+
+ul.menu { list-style: outside none none; border: medium none; text-align: left; }
+ul.menu li { margin: 0px 0px 0px 0.5em; }
+li.leaf { list-style-type: square; list-style-image: url('menu-leaf.png'); padding: 0.2em 0.5em 0px 0px; margin: 0px; }
+li a.active { color: rgb(0, 0, 0); }
+.block ul { margin: 0px; padding: 0px 0px 0.25em 1em; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/modules/user/user.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/modules/cck/theme/content-module.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/modules/date/date.css?2 ::::: */
+
+.date-clear-block::after { content: " "; display: block; height: 0px; clear: both; visibility: hidden; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/modules/date/date_popup/themes/datepicker.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/modules/date/date_popup/themes/jquery.timeentry.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/html-reset.css?2 ::::: */
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset { font-family: Arial,Helvetica,"Bitstream Vera Sans",sans-serif; }
+body { font-size: 100%; }
+#page { font-size: 0.75em; line-height: 1.333em; }
+h1 { font-size: 160%; }
+h2 { font-size: 140%; }
+ul, ol { margin-left: 0px; padding-left: 2em; }
+.block ul, .item-list ul { margin: 1em 0px; padding: 0px 0px 0px 2em; }
+li { margin: 0px; padding: 0px; }
+ul.menu li, li.expanded, li.collapsed, li.leaf { margin: 0px; padding: 0px; }
+ul { list-style-type: disc; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 15px; }
+th, thead th, tbody th { text-align: left; padding-right: 0px; border-bottom: medium none; }
+tbody { border-top: medium none; }
+thead th { background: rgb(221, 221, 221) none repeat scroll 0% 0%; border: 1px solid rgb(204, 204, 204); padding: 6px 5px; }
+tr.odd td, tr.even td { padding: 8px 5px; border: 1px solid rgb(204, 204, 204); }
+tr.odd td { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+tr.even td { background: rgb(242, 242, 242) none repeat scroll 0% 0%; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/wireframes.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/tabs.css?2 ::::: */
+
+div.tabs { margin: 0px 0px 5px; }
+ul.primary { margin: 0px; padding: 0px 0px 0px 10px; border-width: 0px; list-style: outside none none; white-space: nowrap; line-height: normal; background: transparent url('tab-bar.png') repeat-x scroll left bottom; }
+ul.primary li { float: left; margin: 0px; padding: 0px; }
+ul.primary li a { display: block; height: 24px; margin: 0px; padding: 0px 0px 0px 5px; border-width: 0px; font-weight: bold; text-decoration: none; color: rgb(119, 119, 119); background: transparent url('tab-left.png') no-repeat scroll left -38px; }
+ul.primary li a .tab { display: block; height: 20px; margin: 0px; padding: 4px 13px 0px 6px; border-width: 0px; line-height: 20px; background: transparent url('tab-right.png') no-repeat scroll right -38px; }
+ul.primary li a:hover { border-width: 0px; background: transparent url('tab-left.png') no-repeat scroll left -76px; }
+ul.primary li a:hover .tab { background: transparent url('tab-right.png') no-repeat scroll right -76px; }
+ul.primary li.active a, ul.primary li.active a:hover { border-width: 0px; color: rgb(0, 0, 0); background: transparent url('tab-left.png') no-repeat scroll left 0px; }
+ul.primary li.active a .tab, ul.primary li.active a:hover .tab { background: transparent url('tab-right.png') no-repeat scroll right 0px; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/messages.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/pages.css?2 ::::: */
+
+body { margin: 0px; padding: 10px; }
+#header .section { padding: 10px; }
+#logo-title { float: left; margin: 5px 0px 0px 20px; }
+#title-slogan { float: left; margin-bottom: 10px; line-height: 0; }
+h1#site-name { margin: 0px; font-size: 2.6em; padding: 0px; line-height: 1em; }
+.no-slogan h1#site-name { margin-top: 10px; }
+#site-name a:link, #site-name a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+#site-name a:hover { text-decoration: underline; }
+h1.title, h2.title, h3.title { margin: 0px; }
+h1.title { margin-bottom: 10px; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/block-editing.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/blocks.css?2 ::::: */
+
+.block { margin-bottom: 1em; }
+.block { border: medium none; padding: 0px; margin-bottom: 15px; }
+.block ul { margin-top: 0px; margin-left: 15px; padding-left: 0px; }
+.block ul li { margin-bottom: 4px; }
+.block h2.title { font-size: 110%; padding: 2px 10px; }
+.block ul li { list-style-type: circle; list-style-image: url('menu-leaf2.png'); }
+.block ul li.leaf { list-style-image: url('menu-leaf2.png'); }
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/navigation.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/nodes.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/comments.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/forms.css?2 ::::: */
+
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/cti-flex.css?2 ::::: */
+
+body { background-color: rgb(231, 231, 231); color: rgb(50, 50, 50); }
+a { color: rgb(0, 64, 184); }
+#page { background-color: rgb(255, 255, 255); }
+#navigation { background-color: rgb(136, 136, 136); }
+.sidebar .block h2.title, #content .block h2.title { color: rgb(255, 255, 255); padding: 4px 10px; border-top-left-radius: 7px; border-top-right-radius: 7px; border: 1px solid rgb(136, 136, 136); background-color: rgb(136, 136, 136); }
+.sidebar .block .content, #content .block .content { margin: 0px; border-bottom-left-radius: 7px; border-bottom-right-radius: 7px; background-color: rgb(231, 231, 231); border: 1px solid rgb(231, 231, 231); padding: 10px; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/layout-liquid.css?2 ::::: */
+
+#page-wrapper, .region-page-closure { min-width: 960px; }
+#main-wrapper { position: relative; }
+#content { float: left; width: 100%; margin-left: 0px; margin-right: -100%; padding: 0px; }
+#content .section, .no-sidebars #content .section { margin: 0px; padding: 0px; }
+.sidebar-first #content .section { padding-left: 200px; padding-right: 0px; }
+#content .section { margin: 20px 10px; padding: 0px; }
+#navigation { float: left; width: 100%; margin-left: 0px; margin-right: -100%; padding: 0px; height: auto; }
+.empty-nav #navigation { height: 3px; }
+.region-sidebar-first { float: left; width: 200px; margin-left: 0px; margin-right: -200px; padding: 0px; }
+.region-sidebar-first .section { margin: 20px 10px; padding: 0px; }
+#header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, #footer, .region-page-closure { overflow: visible; overflow-wrap: break-word; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/colors/blue.css?2 ::::: */
+
+body { background-image: url('body_bg.gif'); color: rgb(50, 50, 50); }
+a { color: rgb(0, 72, 187); }
+#page { border: 1px solid rgb(187, 187, 187); background-color: rgb(255, 255, 255); }
+#header .section { background: rgb(160, 186, 225) url('header_bg.gif') repeat-x scroll left top; }
+#site-name a:link, #site-name a:visited { color: rgb(3, 70, 149); }
+#navigation { background: rgb(14, 61, 138) url('primary_bg.gif') repeat-x scroll left top; border-top: 1px solid rgb(25, 75, 157); border-bottom: 3px solid rgb(28, 146, 1); }
+.region-sidebar-first .block h2.title { background: rgb(14, 61, 138) url('primary_bg.gif') repeat-x scroll left top; border: 1px solid rgb(25, 75, 157); }
+.region-sidebar-first .block .content { background-color: rgb(237, 237, 237); border: 1px solid rgb(222, 222, 222); }
+.block ul li { list-style-type: circle; list-style-image: url('menu-leaf2_001.png'); }
+.block ul li.leaf { list-style-image: url('menu-leaf2_001.png'); }
+thead th { background: rgb(176, 208, 152) none repeat scroll 0% 0%; border: 1px solid rgb(139, 183, 106); }
+tr.odd td, tr.even td { border: 1px solid rgb(187, 216, 156); }
+tr.odd td { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+tr.even td { background: rgb(234, 244, 224) none repeat scroll 0% 0%; }
+/* ::::: http://ccdcadmin1.morainevalley.edu/sites/default/themes/cti_flex/css/local.css?2 ::::: */
+

@@ -1,0 +1,8 @@
+1. Disable Directory Transversal in Apache.
+https://support.qualityunit.com/496941-How-to-disable-directory-browsing-in-apache-configuration
+
+2. Move config.ini to a new location. Move .git to a new location.
+
+3. Get composer and MPDF
+https://github.com/mpdf/mpdf
+https://getcomposer.org/download/
