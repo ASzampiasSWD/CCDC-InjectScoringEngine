@@ -47,7 +47,7 @@ CREATE USER 'ise'@'localhost' IDENTIFIED BY 'password';<br />
 GRANT ALL PRIVILEGES ON *.* TO 'ise'@'localhost';<br />
 FLUSH PRIVILEGES;<br /><br />
 
-<b>Ubuntu:</b>
+<b>Ubuntu:</b><br />
 service mysql restart<br />
 service apache2 restart<br />
 Go to line 63 in functions.php and change path of config.ini. You should get an error about this when you first login.<br />
