@@ -1,10 +1,16 @@
+## Credits
+
+Front-End: Unknown. Please contact me and I'll add your name.<br />
+Back-End: Amanda Szampias.<br />
+Database: Amanda Szampias.<br />
+
 ## Easy Install
 
 I made an OVF file. It's available here: https://drive.google.com/open?id=1ICgas5IwjjsELe5dYljyebAJqihPX0j6
 
 You can import this into VMWare or Virtualbox. Type in "localhost" into the browser and the website will appear. I did some basic security steps on this box which are documented in notes/QADocument.docx
 
-<b>Ubuntu 18.04LTS:<b><br />
+<b>Ubuntu 18.04LTS:</b><br />
 Username: aszampias<br />
 Password: toor<br /><br />
 
@@ -47,3 +53,8 @@ service apache2 restart<br />
 Go to line 63 in functions.php and change path of config.ini. You should get an error about this when you first login.<br />
 Go into /var/www/html/CCDC-InjectScoringEngine/config.ini and change username and password to ‘ise’ and ‘password’. (whatever you used).<br />
 
+
+## More Info
+Youtube Video: https://www.youtube.com/watch?v=YvPWPr0O0Dc<br />
+BlogPost: http://amandaszampias.blogspot.com/2019/06/release-of-ccdc-ise-manager-website.html<br />
+Questions, Features, and Bugs: Contact me. Email or LinkedIn is best.<br />
