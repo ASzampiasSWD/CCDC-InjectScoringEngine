@@ -20,7 +20,7 @@ Password: password<br /><br />
 
 ## Install Yourself
 Follow these commands. I used these for Ubuntu 18.04LTS.
-<b>Ubuntu</b>
+<b>Ubuntu</b><br />
 $ apt-get update<br />
 $ apt-get upgrade<br />
 $ apt-get install apache2<br />
