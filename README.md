@@ -19,7 +19,7 @@ Username: ise<br />
 Password: password<br /><br />
 
 ## Install Yourself
-Follow these commands. I used these for Ubuntu 18.04LTS.
+Follow these commands. I used these for Ubuntu 18.04LTS:<br />
 <b>Ubuntu</b><br />
 $ apt-get update<br />
 $ apt-get upgrade<br />
