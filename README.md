@@ -44,7 +44,7 @@ COPY ALL OF notes/tablenotes.sql and PASTE into mysql command line. This will cr
 INSERT INTO Category VALUES ('0', 'ISE Manager Admin', 'Fri, 31 May 2019 18:07:50 -0400', 'Fri, 31 May 2019 19:07:50 -0400', 0);<br />
 INSERT INTO Team (group_id, team_name, team_password, team_score, creation_date)  VALUES('0', 'Amanda', 'duck', 0, 'Fri, 31 May 2019 19:07:50 -0400');<br />
 CREATE USER 'ise'@'localhost' IDENTIFIED BY 'password';<br />
-GRANT ALL PRIVILEGES ON *.* TO 'ise'@'localhost';<br />
+GRANT ALL PRIVILEGES ON ccdc_ise.\* TO 'ise'@'localhost';<br />
 FLUSH PRIVILEGES;<br /><br />
 
 <b>Ubuntu:</b><br />
