@@ -14,7 +14,7 @@ CREATE TABLE Team(
   team_id int NOT NULL AUTO_INCREMENT,
   group_id int NOT NULL,
   team_name varchar(30) NOT NULL UNIQUE,
-  team_password varchar(12) NOT NULL,
+  team_password varchar(50) NOT NULL,
   team_score int NOT NULL DEFAULT 0,
   creation_date varchar(50) NOT NULL,
   PRIMARY KEY (team_id),
