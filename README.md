@@ -18,6 +18,10 @@ Password: toor<br /><br />
 Username: ise<br />
 Password: password<br /><br />
 
+<b>Admin Website</b><br />
+Username: Amanda<br />
+Password: duck<br /><br />
+
 ## Install Yourself
 Follow these commands. I used these for Ubuntu 18.04LTS:<br />
 <b>Ubuntu</b><br />
